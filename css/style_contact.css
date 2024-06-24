@@ -1,0 +1,168 @@
+.container_contact {
+    background-image: url(../img/image/img-2.jpg);
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 120px;
+    font-size: 35px;
+}
+
+/* Estilos generales para el contenedor del cuadro */
+.contact-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    /* Ancho del cuadro */
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    margin-top: 40px;
+    /* Añade espacio en la parte superior */
+    margin-bottom: 40px;
+    /* Añade espacio en la parte inferior */
+}
+
+/* Estilos para la sección derecha (Correo Electrónico) */
+.contact-left .contact-right {
+    width: 45%;
+    /* Ancho de cada sección */
+    text-align: right;
+    /* Alinear texto a la derecha */
+}
+
+.contact-left h3,
+.contact-right h3 {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #333;
+}
+
+.contact-left p,
+.contact-right p {
+    margin: 0;
+    font-size: 1em;
+    color: #666;
+}
+
+/* Estilos para el contenedor del mapa */
+#map-container {
+    width: 90%;
+    max-width: 1000px;
+    /* Ancho fijo del contenedor */
+    height: 400px;
+    /* Altura del contenedor */
+    margin: 20px auto;
+    /* Margen vertical: 20px y margen horizontal: auto para centrar */
+    border-radius: 10px;
+    /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    /* Sombra para efecto de integración */
+    overflow: hidden;
+    /* Ocultar el contenido sobrante del mapa */
+    margin-top: 40px;
+    /* Añade espacio en la parte superior */
+    margin-bottom: 60px;
+    /* Añade espacio en la parte inferior */
+}
+
+#map-container iframe {
+    width: 100%;
+    /* Ocupar todo el ancho del contenedor */
+    height: 100%;
+    /* Ocupar toda la altura del contenedor */
+    border: 0;
+    /* Sin borde alrededor del iframe */
+}
+
+/* Estilos para cada elemento individual */
+.info_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 150px;
+    text-align: center;
+}
+
+/* Estilos para las imágenes */
+.info_item img {
+    width: 100%;
+    height: auto;
+}
+
+/* Estilos para los párrafos */
+.info_item p {
+    margin-top: 10px;
+    font-size: 1rem;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+
+    .container_contact {
+        padding: 50px;
+        /* Reducir el padding para dispositivos móviles */
+        font-size: 20px;
+        /* Reducir el tamaño de fuente para dispositivos móviles */
+        text-align: center;
+    }
+
+    .contact-box {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 70%;
+    }
+
+    .contact-left,
+    .contact-right {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .contact-left,
+    .contact-right {
+        text-align: center;
+        /* Alinear texto a la izquierda en pantallas pequeñas */
+    }
+
+    .contact-left h3,
+    .contact-right h3 {
+        font-size: 1.1em;
+    }
+
+    .contact-left p,
+    .contact-right p {
+        font-size: 0.9em;
+    }
+
+    /* Estilos para el contenedor principal */
+    .info_contact-box {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    #map-container {
+        width: 80%;
+        height: 300px;
+    }
+
+    #map-container iframe {
+        width: 100%;
+    }
+
+}
+
+/* Estilos para el contenedor principal */
+.info_contact-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}

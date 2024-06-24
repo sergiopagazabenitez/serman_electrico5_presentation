@@ -1,0 +1,191 @@
+/* Estilo base */
+body {
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* Utiliza la fuente Arial, si no está disponible, usa la fuente sans-serif por defecto del sistema */
+}
+
+/* Estilo que adapta el contenido para smartphones */
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 0.875rem;
+    /* Equivalente a 14px */
+  }
+}
+
+/* Estilo que adapta el contenido para tablets */
+@media only screen and (min-width: 481px) and (max-width: 800px) {
+  body {
+    font-size: 1rem;
+    /* Equivalente a 16px */
+  }
+}
+
+/* Estilo que adapta el contenido para computadoras */
+@media only screen and (min-width: 801px) {
+  body {
+    font-size: 1.125rem;
+    /* Equivalente a 18px */
+  }
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 15px;
+  width: auto;
+  text-align: center;
+}
+
+/* Estilos para los textos */
+.container {
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgb(240, 250, 255);
+  z-index: 1000;
+  /* Asegúrate de que la barra de navegación esté por encima del contenido */
+}
+
+.navbar .menu-toggle {
+  display: none;
+  /* Oculto por defecto */
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: rgb(1, 1, 97);
+  /* Color del texto */
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.navbar li {
+  margin-right: 20px;
+}
+
+.navbar button {
+  background-color: rgb(1, 1, 97);
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+  /* Transición suave para el cambio de color */
+}
+
+.navbar button:hover {
+  background-color: #0057b3b9;
+  /* Color de fondo ligeramente más claro al pasar el cursor */
+}
+
+main {
+  margin-top: 75px;
+  /* Ajusta este valor según la altura de tu barra de navegación */
+}
+
+.logo {
+  margin-top: 15px;
+  max-width: 100%;
+  height: auto;
+}
+
+/* Media query para ocultar los botones en dispositivos móviles */
+@media (max-width: 768px) {
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 15px; /* Puedes ajustar este valor según sea necesario */
+  }
+
+  .navbar ul {
+    display: none; /* Oculta la lista de botones por defecto en dispositivos móviles */
+    flex-direction: column;
+    width: 100%;
+    background-color: rgba(191, 235, 255, 0.908);
+    position: fixed;
+    top: 75px;
+    left: 0;
+    bottom: 0;
+    z-index: 999; /* Asegura que la lista de botones esté sobre el contenido */
+    padding: 10px 0;
+    transform: translateX(-100%); /* Empieza oculta fuera del lado izquierdo */
+    transition: transform 0.3s ease; /* Agrega una transición suave al mostrar/ocultar */
+  }
+
+  .navbar ul.show {
+    display: flex; /* Muestra la lista de botones cuando se hace clic en el botón del menú */
+    transform: translateX(0); /* Muestra la lista de botones desplazándola hacia la derecha */
+  }
+
+  .navbar .menu-toggle {
+    width: 20%;
+    display: block;
+    order: 0;
+  }
+
+  .navbar li {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .navbar button {
+    width: 40%;
+    /* Los botones ocupan todo el ancho */
+  }
+
+  .logo {
+    max-width: 55%;
+    height: auto;
+    margin-right: 30px;
+    order: 1;
+  }
+}
+
+#topBtn {
+  display: none;
+  /* Oculto por defecto */
+  position: fixed;
+  /* Fijo en la pantalla */
+  bottom: 20px;
+  /* Distancia desde el fondo */
+  right: 30px;
+  /* Distancia desde la derecha */
+  z-index: 99;
+  /* Asegúrate de que esté sobre otros elementos */
+  border: none;
+  /* Sin borde */
+  outline: none;
+  /* Sin outline */
+  background-color: #000;
+  /* Color de fondo */
+  color: white;
+  /* Color del texto */
+  cursor: pointer;
+  /* Cursor de mano */
+  padding: 20px;
+  /* Espaciado */
+  border-radius: 10px;
+  /* Bordes redondeados */
+}
+
+#topBtn:hover {
+  background-color: #555;
+  /* Color de fondo al pasar el cursor */
+}

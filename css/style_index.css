@@ -1,0 +1,108 @@
+.container_index {
+  background-image: url(../img/image/img-1.jpg);
+  background-size: cover;
+  color: #fff;
+  padding: 120px;
+  font-size: 35px;
+}
+
+/* Estilos para el contenedor principal */
+.icon-1-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+  margin: 0px;
+}
+
+/* Estilos para cada elemento individual */
+.icon-1-client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  text-align: center;
+  flex-grow: 1;
+  /* Permite que los elementos crezcan para ocupar el espacio disponible */
+}
+
+/* Estilos para las imágenes */
+.icon-1-client img {
+  width: 50%;
+  height: auto;
+}
+
+/* Estilos para los párrafos */
+.info_item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+/* Estilos para el contenedor principal */
+.icon-2-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px;
+}
+
+/* Estilos para cada elemento individual */
+.icon-2-client {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  text-align: center;
+}
+
+/* Estilos para las imágenes */
+.icon-2-client img {
+  width: 100%;
+  height: auto;
+}
+
+/* Estilos para los párrafos */
+.info_item p {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+.img-galery {
+  display: flex;
+  flex-direction: row; /* Fila horizontal */
+  flex-wrap: wrap; /* Permitir que las imágenes se envuelvan a la siguiente línea */
+  justify-content: center; /* Centrar horizontalmente */
+  align-items: center; /* Centrar verticalmente */
+  max-width: 100%; /* Ajustar el ancho máximo */
+  text-align: center;
+  margin: 0 auto; /* Centrar el contenedor en su padre */
+  gap: 10px; /* Reducir espacio entre las imágenes */
+}
+
+/* Estilos para las imágenes */
+.img-galery img {
+  max-width: 300px; /* Ajustar el ancho máximo de las imágenes */
+  width: 100%; /* Ajustar al 100% del contenedor padre */
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .container_index {
+    padding: 50px; /* Reducir el padding para dispositivos móviles */
+    font-size: 20px; /* Reducir el tamaño de fuente para dispositivos móviles */
+    text-align: center;
+  }
+
+  .img-galery {
+    width: 90%;
+    max-width: 90%;
+  }
+
+  .img-galery img {
+    margin-bottom: 10px; /* Ajustar el margen inferior para dispositivos móviles */
+    max-width: 100%; /* Ajustar el ancho máximo de las imágenes para dispositivos móviles */
+  }
+}

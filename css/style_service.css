@@ -1,0 +1,70 @@
+.container_service {
+    background-image: url(../img/image/img-5.jpg);
+    color: #fff;
+    padding: 120px;
+    font-size: 35px;
+}
+
+/* Alineación y estilos para la sección de Acerca de */
+.text_service {
+    background-color: #f0f0f0;
+    /* Color de fondo para el encabezado */
+    padding: 100px;
+    text-align: center;
+    /* Alineación central para el encabezado */
+}
+
+main p {
+    text-align: justify;
+    /* Alineación del texto a la izquierda */
+    font-size: 25px;
+    /* Cambia el tamaño del texto */
+    margin-bottom: 20px;
+    /* Espacio inferior entre párrafos */
+}
+
+main h3 {
+    text-align: justify;
+    font-size: 40px;
+    /* Cambia el tamaño del texto */
+    margin-top: 50px;
+    /* Espacio superior para separar de los párrafos anteriores */
+}
+
+main h4 {
+    text-align: justify;
+    /* Alineación del texto a la izquierda */
+    font-size: 30px;
+    /* Tamaño de fuente para los títulos de proyectos */
+    margin-top: 50px;
+    /* Espacio superior para separar de los párrafos anteriores */
+    margin-bottom: 50px;
+    /* Espacio inferior para separar del párrafo siguiente */
+}
+
+@media (max-width: 768px) {
+    
+    .container_service {
+        padding: 50px;
+        /* Reducir el padding para dispositivos móviles */
+        font-size: 20px;
+        /* Reducir el tamaño de fuente para dispositivos móviles */
+        text-align: center;
+    }
+
+    .text-about {
+        padding: 30px 10px;
+    }
+
+    main p {
+        font-size: 18px;
+    }
+
+    main h3 {
+        font-size: 25px;
+    }
+
+    main h4 {
+        font-size: 22px;
+    }
+}
