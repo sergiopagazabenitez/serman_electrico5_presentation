@@ -8,6 +8,9 @@ This project is an academic and professional initiative developed at **CBT 4 Tec
 **Español:**  
 Este proyecto es una iniciativa académica y profesional desarrollada en el **CBT 4 Tecámac (Turno Vespertino), Generación 2021-2024**. Consiste en un **sitio web estático** para la empresa **Serman Eléctrico5 S.A. de C.V.**, con el objetivo de brindar presencia en línea y mostrar sus servicios.
 
+## Website / Sitio web
+https://sergiopagazabenitez.github.io/serman_electrico5_presentation/html/index.html
+
 ---
 
 ## ⚙️ Technologies Used / Tecnologías Utilizadas
@@ -16,16 +19,6 @@ Este proyecto es una iniciativa académica y profesional desarrollada en el **CB
 - CSS3
 - JavaScript
 - GitHub Pages (for hosting)
-
----
-
-## 🚀 Installation & Usage / Instalación y Uso
-
-**English:**  
-To view the project, simply open the `index.html` file in a browser or visit the hosted website (if available).
-
-**Español:**  
-Para ver el proyecto, simplemente abre el archivo `index.html` en un navegador o visita el sitio web alojado (si está disponible).
 
 ---
 
