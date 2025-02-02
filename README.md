@@ -42,5 +42,12 @@ https://sergiopagazabenitez.github.io/serman_electrico5_presentation/html/index.
 
 ## 📜 License / Licencia
 
-This project is for educational purposes and does not have a commercial license.  
-Este proyecto es para fines educativos y no posee una licencia comercial.
+This project is for **demonstration purposes only** and does not have a commercial license.  
+Este proyecto es **únicamente para fines demostrativos** y no posee una licencia comercial.
+
+---
+
+## ⚖️ Copyright / Derechos de Autor
+
+© 2024 Serman Eléctrico5 S.A. de C.V. All rights reserved.  
+© 2024 Serman Eléctrico5 S.A. de C.V. Todos los derechos reservados.
